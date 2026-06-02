@@ -1,0 +1,21 @@
+import numpy as np
+
+a = np.array([
+    [11,22,33],
+    [44,55,66],
+    [77,88,99]
+])
+
+# First column
+print(a[:,0])
+# Output: [11 44 77]
+
+# Last row
+print(a[-1])
+# Output: [77 88 99]
+
+# Extract
+print(a[:2,1:])
+# Output:
+# [[22 33]
+#  [55 66]]
